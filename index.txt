@@ -1,0 +1,25 @@
+las favicon son  imagenes de 32*32
+
+las imagenes las puedes buscar en unesplahs.com
+ descarga las imagenes en tamano medianos
+
+ boxicon  para obtener iconos 
+
+ tambien nos creamos un archivo llamamsdo normalize.css para que la pagina se vea igual en diferentes navegadores agremamos un elemento universal *{margin: 0; y box-sizing: border-box;}
+
+ al h1 le colocamos un marging:0; 
+
+
+primero nos vamos a google fonts para buscar la typografia que queremos
+
+creamos el header copn sus clases 
+
+pagina a buscar clippy
+cuando iusamos clippy hay un problema con position fixed y clippy porque position fixed es hijo de un clippy en evez de fijar al navegador se fija al elemento clippy para ello creamos un pseudo elemento a partior de hero con lo  siguiente  .hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+}   position absolute para que se posicione a su padre .hero 
+
+magic patterns tools css backgrounds
